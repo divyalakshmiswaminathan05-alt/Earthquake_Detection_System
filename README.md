@@ -1,4 +1,4 @@
-# 🌍 Seismic Detection System
+#  Seismic Detection System
 
 A real-time embedded system designed to detect seismic vibrations using two independent nodes that communicate and validate data collaboratively to generate a reliable earthquake alert.
 
@@ -121,8 +121,4 @@ Dual-node validation significantly improves reliability and reduces false positi
 
 ---
 
-## 👩‍💻 Author
-Divya Lakshmi S  
-B.E. Electronics and Communication Engineering  
-Embedded Systems & IoT Enthusiast  
 
