@@ -4,12 +4,12 @@ A real-time embedded system designed to detect seismic vibrations using two inde
 
 ---
 
-## 🚨 Problem Statement
+## Problem Statement
 Earthquakes and tremors can cause serious damage and risk to human life. Most low-cost systems suffer from false alerts due to noise and lack of cross-validation.
 
 ---
 
-## 🎯 Objective
+##  Objective
 To design a system that:
 - 📡 Independently detects seismic waves using two embedded nodes  
 - 🔁 Exchanges sensor data between nodes using MAC-based communication  
@@ -18,7 +18,7 @@ To design a system that:
 
 ---
 
-## ✨ Features
+##  Features
 - 🔍 Dual-node independent seismic detection  
 - 🤝 Mutual data validation to reduce false positives  
 - 🧮 Threshold-based decision algorithm  
@@ -27,7 +27,7 @@ To design a system that:
 
 ---
 
-## 🔧 Hardware Components
+##  Hardware Components
 - 🧠 ESP32-WROOM-32 Microcontroller (2 units)  
 - 📐 ADXL345 / MPU6050 MEMS Accelerometer (2 units)  
 - ⚡ Piezoelectric Vibration Sensor (SW-420) (2 units)  
@@ -37,11 +37,11 @@ To design a system that:
 
 ---
 
-## 💻 Software & Tools
-- 🛠️ Arduino IDE  
-- 🧑‍💻 Embedded C  
-- 🌐 ESP32 Wi-Fi / Bluetooth Stack  
-- 🔗 MAC Address-based Peer-to-Peer Communication  
+##  Software & Tools
+-  Arduino IDE  
+-  Embedded C  
+-  ESP32 Wi-Fi / Bluetooth Stack  
+-  MAC Address-based Peer-to-Peer Communication  
 
 ---
 
@@ -74,7 +74,7 @@ If only one system detects abnormal activity, it is classified as a **❌ False 
 
 ---
 
-## 📏 Seismic Threshold Levels
+##  Seismic Threshold Levels
 
 The system uses acceleration-based thresholds (in *g-force*) to classify seismic activity:
 
@@ -93,7 +93,7 @@ These thresholds are used by both systems before cross-validation.
 
 ---
 
-## 🎯 System Accuracy
+##  System Accuracy
 
 Based on experimental testing and calibration:
 - Minor vibrations: **85–90%**  
@@ -105,7 +105,7 @@ Dual-node validation significantly improves reliability and reduces false positi
 
 ---
 
-## 🏥 Applications
+##  Applications
 - 🌏 Earthquake early warning systems  
 - 🏥 Hospital and dialysis center safety  
 - 🏗️ Structural health monitoring  
@@ -113,7 +113,7 @@ Dual-node validation significantly improves reliability and reduces false positi
 
 ---
 
-## 🔮 Future Scope
+##  Future Scope
 - 🤖 Dynamic threshold adaptation using Machine Learning  
 - ☁️ Cloud-based event logging (AWS / Firebase)  
 - 📱 Mobile app alerts using MQTT  
