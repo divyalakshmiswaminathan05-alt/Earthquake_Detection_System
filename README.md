@@ -11,29 +11,29 @@ Earthquakes and tremors can cause serious damage and risk to human life. Most lo
 
 ##  Objective
 To design a system that:
-- 📡 Independently detects seismic waves using two embedded nodes  
-- 🔁 Exchanges sensor data between nodes using MAC-based communication  
-- 📊 Compares values with a predefined threshold  
-- ⚠️ Classifies the event as either a false alert or a true earthquake  
+- Independently detects seismic waves using two embedded nodes  
+- Exchanges sensor data between nodes using MAC-based communication  
+- Compares values with a predefined threshold  
+- Classifies the event as either a false alert or a true earthquake  
 
 ---
 
 ##  Features
-- 🔍 Dual-node independent seismic detection  
-- 🤝 Mutual data validation to reduce false positives  
-- 🧮 Threshold-based decision algorithm  
-- 🚨 Real-time alert generation  
-- 📈 Reliable and scalable embedded design  
+- Dual-node independent seismic detection  
+- Mutual data validation to reduce false positives  
+- Threshold-based decision algorithm  
+- Real-time alert generation  
+- Reliable and scalable embedded design  
 
 ---
 
 ##  Hardware Components
-- 🧠 ESP32-WROOM-32 Microcontroller (2 units)  
-- 📐 ADXL345 / MPU6050 MEMS Accelerometer (2 units)  
-- ⚡ Piezoelectric Vibration Sensor (SW-420) (2 units)  
-- 🔔 Buzzer / LED Indicator  
-- 🧵 Breadboard and Jumper Wires  
-- 🔋 5V Power Supply / USB Power  
+- ESP32-WROOM-32 Microcontroller (2 units)  
+- ADXL345 / MPU6050 MEMS Accelerometer (2 units)  
+- Piezoelectric Vibration Sensor (SW-420) (2 units)  
+- Buzzer / LED Indicator  
+- Breadboard and Jumper Wires  
+- 5V Power Supply / USB Power  
 
 ---
 
@@ -45,7 +45,7 @@ To design a system that:
 
 ---
 
-## ⚙️ How It Works
+##  How It Works
 
 Both System 1 and System 2 continuously monitor ground vibrations using MEMS sensors.  
 Each system processes its own sensor data locally and compares it with a predefined threshold.  
@@ -106,18 +106,18 @@ Dual-node validation significantly improves reliability and reduces false positi
 ---
 
 ##  Applications
-- 🌏 Earthquake early warning systems  
-- 🏥 Hospital and dialysis center safety  
-- 🏗️ Structural health monitoring  
-- 🏙️ Smart city disaster management  
+- Earthquake early warning systems  
+- Hospital and dialysis center safety  
+- Structural health monitoring  
+- Smart city disaster management  
 
 ---
 
 ##  Future Scope
-- 🤖 Dynamic threshold adaptation using Machine Learning  
-- ☁️ Cloud-based event logging (AWS / Firebase)  
-- 📱 Mobile app alerts using MQTT  
-- 🚑 Integration with emergency response systems  
+- Dynamic threshold adaptation using Machine Learning  
+- Cloud-based event logging (AWS / Firebase)  
+- Mobile app alerts using MQTT  
+- Integration with emergency response systems  
 
 ---
 
