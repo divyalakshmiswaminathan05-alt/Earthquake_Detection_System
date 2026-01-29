@@ -103,22 +103,4 @@ Based on experimental testing and calibration:
 
 Dual-node validation significantly improves reliability and reduces false positives.
 
----
-
-##  Applications
-- Earthquake early warning systems  
-- Hospital and dialysis center safety  
-- Structural health monitoring  
-- Smart city disaster management  
-
----
-
-##  Future Scope
-- Dynamic threshold adaptation using Machine Learning  
-- Cloud-based event logging (AWS / Firebase)  
-- Mobile app alerts using MQTT  
-- Integration with emergency response systems  
-
----
-
 
